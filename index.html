@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hurdle Race Game</title>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      //Your web app's Firebase configuration
+      const firebaseConfig = {
+  apiKey: "AIzaSyAHIJXYTqE8tbPnVWI5Na7LrnQk8_3TpkY",
+  authDomain: "hurdle-race-8fbcc.firebaseapp.com",
+  databaseURL: "https://hurdle-race-8fbcc.firebaseio.com",
+  projectId: "hurdle-race-8fbcc",
+  storageBucket: "hurdle-race-8fbcc.appspot.com",
+  messagingSenderId: "818934964458",
+  appId: "1:818934964458:web:18ae1b0dd6d76a774cb793",
+  measurementId: "G-T55HS0YX5L"
+};
+      
+      // // Initialize Firebase
+      // firebase.initializeApp(firebaseConfig);
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="Player.js"></script>
+    <script src="Form.js"></script>
+    <script src="Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
